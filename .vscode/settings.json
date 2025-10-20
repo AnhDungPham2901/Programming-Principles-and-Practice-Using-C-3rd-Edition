@@ -61,6 +61,7 @@
         "variant": "cpp",
         "vector": "cpp",
         "complex": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "__verbose_abort": "cpp"
     }
 }
