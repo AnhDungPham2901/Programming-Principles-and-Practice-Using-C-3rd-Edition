@@ -1,0 +1,26 @@
+- // : used for line comment </br>
+- function: a combination of statements and has a name to be called by the program. It might be called with argumements and return a value</br>
+- output: What a program returns </br>
+- comipiler: a program to convert human readable language into machine language. </br>
+- linker: a program to link all object files into an executable 
+- command line: a place to interact with a computer </br>
+- executable: result of the linking object files </br>
+- object code: compiled result of source code </br>
+- comment: explanation for human understanding </br>
+- import: a keyword for a statement to gain access to libraries </br>
+- module: a part of a program. </br>
+- bug: an error </br>
+- main(): a function where the system starts running the program </br>
+- C++: a programming language, its a superset of C language. </br>
+- IDE: programming environment which contains many tools in 1 envrionment which helps developer easier in their development </br>
+- source code: this is program text where human give instructions to machine to achive a task or solve problems or tell the machine what to do </br>
+- statement: a description of an action that human gives to machine. </br>
+- #include: a keyword to gain access to libraries </br>
+- debugging: the process ot finding a bug or an error. </br>
+- <<: output operator </br>
+- header file: file that is imported in the other file so that it can be used in the other file.</br>
+- program: description of instructions telling machine what to do </br>
+- compile-time: the time during compiler is converting source code into object file </br>
+- cout: stands for character output stream, this is the command to instruct the machine to display characters to the screen </br>
+- std: C++ standard library </br>
+- translation unit: a part of a program that can be compiled independently. </br>
