@@ -8,7 +8,7 @@
 - object code: compiled result of source code </br>
 - comment: explanation for human understanding </br>
 - import: a keyword for a statement to gain access to libraries </br>
-- module: a part of a program. </br>
+- module: a part of a program that can be compiled independently. It can also be called a translation unit </br>
 - bug: an error </br>
 - main(): a function where the system starts running the program </br>
 - C++: a programming language, its a superset of C language. </br>
@@ -23,4 +23,4 @@
 - compile-time: the time during compiler is converting source code into object file </br>
 - cout: stands for character output stream, this is the command to instruct the machine to display characters to the screen </br>
 - std: C++ standard library </br>
-- translation unit: a part of a program that can be compiled independently. </br>
+- translation unit: a part of a program that can be compiled independently. We can also call it a module </br>
