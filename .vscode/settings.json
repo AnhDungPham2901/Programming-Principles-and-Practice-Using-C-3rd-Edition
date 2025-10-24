@@ -62,6 +62,7 @@
         "vector": "cpp",
         "complex": "cpp",
         "sstream": "cpp",
-        "__verbose_abort": "cpp"
+        "__verbose_abort": "cpp",
+        "__threading_support": "cpp"
     }
 }

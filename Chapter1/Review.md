@@ -34,4 +34,4 @@ Explanation of our statements in our programs to help human read the program eas
 Establish and reinforce practical programming skills. And give us the experience with programming environment tools.  <br>
 
 <b>[16] If you understand everything in the textbook, why is it necessary to practice? </b>
-Because learning programing by practicing, it is like a sports or learning instruments. We must practice. <br>
+Because programing is learned by writing programs. Its like learning driving a car or learning to play an musical instrument, we can't learn it through reading books only. This textbook gives us knowledge about concepts, but by itself does not give us practical programming skills. We must write program to get used to the programming language, tools. <br>
