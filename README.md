@@ -23,3 +23,18 @@ Here are the exact words of the author about drills, exercises and try this.
 <li> <b>Try this </b>: Some people like to put the book aside and try some examples before reading to the end of a chapter; others prefer to read ahead to the end before trying to get code to run. To support readers with the former preference, we provide simple suggestions for practical work labeled Try this at natural breaks in the text. A Try this is generally in the nature of a drill but focused narrowly on the topic that precedes it. If you pass a Try this without trying it out – maybe because you are not near a computer or you find the text riveting – do return to it when you do the chapter drill; a Try this either complements the chapter drill or is a part of it.
 </li>
 <ul>
+
+
+# Setup for this book
+I've struggled a bit to figure out how to setup, here are some notes
+- I am using GCC 15.2 at the time writing this note
+- PPP.h file does not work with my setup because most of the reason is that the compiler hasn't supported full features for C++20 yet. And it has thrown lots of errors when compiling the modules 
+- I've decided to use the PPPHeader.h instead
+- But we still have to use c++20.
+
+The setup #include "PPP.h" comes from the material from https://www.stroustrup.com/programming.html
+
+- cmd to compile with new version: 
+    ```bash
+     g++ -std=c++20 -fmodules dr_2.4.cpp -o dr_2.4
+     ```
