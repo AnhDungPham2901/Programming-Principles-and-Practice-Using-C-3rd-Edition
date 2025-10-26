@@ -44,7 +44,7 @@
 
 - string: type for strings
 
-- auto: deduce type
+- auto: keyword to use type deduction feature. 
 
 - ==: equal operator
 
