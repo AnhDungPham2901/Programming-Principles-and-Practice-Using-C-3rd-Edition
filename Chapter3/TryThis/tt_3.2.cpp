@@ -1,3 +1,11 @@
+/*
+Try This
+
+Rewrite your currency converter program from the previous 
+TRY THIS to use a switch-statement. Add a conversion from Swiss francs. 
+Which version of the program is easier to write, understand, and modify? Why?
+*/
+
 #include "../../PPPHeaders.h"
 
 int main() {

@@ -1,3 +1,10 @@
+/*
+Try This
+
+Use the example above as a model for a program that converts yen ('y'), 
+kroner ('k'), and pounds ('p') into dollars. If you like realism, you can find conversion rates on the Web.
+*/
+
 #include "../../PPPHeaders.h"
 
 int main() {
