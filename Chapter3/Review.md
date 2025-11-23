@@ -29,4 +29,22 @@ constant expression is an symbolic constant that is given value at the compile t
 a literal is the simplest expression such as 10 is an int literal, 'c' is a char literal, 23.4 is an floating-point literal, "Hello" is in string literal and true is an bool literal
 
 <b> [9] What is a symbolic constant and why do we use them?</b>
-is an named object that has values unchanged during the program.
+is an named object that has values unchanged during the program. We need to use it because it helps us find and change easier.
+</br>
+
+<b> [10] What is a magic constant? Give examples.</b>
+Magic constant is using leterals in our code. Example instead of using a pi symbolic constant, we use 3.1415.... in our code. 
+</br>
+
+<b>[11] What are some operators that we can use for integers and floating-point values? </b>
+Assignments (=), pre-increment/pre-decrement (++/--), addition (+), substraction (-), compound assignment (lval += a), etc
+</br>
+
+<b>[12] What operators can be used on integers but not on floating-point numbers?</b>
+modulo (remainder - %)
+
+<b>[13] What are some operators that can be used for strings? </b>
+concatenation, assignemnt, read from, write to, less than, less than or equal, etc.
+
+
+
