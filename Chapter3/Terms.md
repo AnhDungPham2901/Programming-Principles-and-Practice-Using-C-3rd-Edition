@@ -1,0 +1,16 @@
+- abstraction: hide the detail of implementation and give user an interface to call for using. For example, if we want to sort, just call sort (we dont need to care much about the detail implementation behind the sort algorithm)
+- range-for-statement: for(int x:v) range means sequence of elements.
+- push_back(): a member function to add new element to the back of a vector
+- for-statement: for(inital value; condition; increment operation)
+- function: a name sequence of statements 
+- repetition: doing an operation for the specified number of time. 
+- computation: the act of producing an output given an input
+- if-statement: if(expression) {statement}
+- rvalue: the value that put inside an object
+- conditional statement: only executed if the condition is true
+- increment: ++i or i++ or i+=1;
+- selection: using if-statement or switch case
+- declaration: function declaration is the way to provide program sufficient information to use the function, scpecifically return type, function name, parameter list.
+- input: 
+- definition: the detail implementation 
+

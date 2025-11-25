@@ -45,6 +45,76 @@ modulo (remainder - %)
 
 <b>[13] What are some operators that can be used for strings? </b>
 concatenation, assignemnt, read from, write to, less than, less than or equal, etc.
+</br>
+
+<b> [14] When would a programmer prefer a switch-statement to an if-statement?</b> </br>
+When we need to compare to multiple constants. 
+</br>
+
+<b> [15] What are some common problems with switch-statements?</b> </br>
+- missing break keyword
+- switch on float or string type
+- use same lables for multiple cases
+- cases lable is not a constant expression.
+</br>
+
+<b>[16] What is the function of each part of the header line in a for-loop, and in what sequence are they executed? </b> </br>
+- first part: inital value for the loop variable or control variable 
+- second part: stop condition of the loop
+- third part: increment operation.
+Already listed as excution order
+</br>
+
+<b>[17] When should the for-loop be used and when should the while-loop be used?</b> </br>
+Use for loop whenever its clear initial value, termination condition and increment operation. Use while loop if thats not the case.
+ 
+<b>[18] Describe what the line char foo(int x) means in a function definition. </b> </br>
+- char is the type of return value
+- foo is the funtion identifier or function name
+- int x: formal argument or paremer which has type int
+</br>
+
+<b> [19] When should you define a separate function for part of a program? List reasons.</b> </br>
+When we have to have a name for the separated part. Because
+- The named part can be reuse anywhere
+- Program text is more structured with a name
+- Easy testing the part.
+</br>
+
+<b> [20] What can you do to an int that you cannot do to a string?</b>
+add, substract, multiple, divide, modulo, pre-increment, pre-decrement.
+</br>
+
+<b>[21] What can you do to a string that you cannot do to an int?</b> </br>
+concatenation. 
 
 
+<b> [22] What is the index of the third element of a vector?</b> </br>
+the index is: 2
+</br>
+
+<b>[23] How do you write a for-loop that prints every element of a vector? </b> </br>
+there are 2 ways: using index-based or using element-based (x:v)
+- for(int i=0; i < v.size(); ++i) {}
+- for(int x:v) {}
+</br>
+
+<b>[24] What does vector<char> alphabet(26); do? </b> </br>
+it creates a vector named alphabet which can contain 26 chacters.
+</br>
+
+<b>[25] Describe what push_back() does to a vector.</b> </br>
+it adds a new item to the back of the vector (last element)
+</br>
+
+<b>[26] What does vector’s member size() do? </b> </br>
+the member function return the length of the vector or how many elements in the vector.
+</br>
+
+<b>[27] What makes vector so popular/useful? </b> </br>
+we dont need to specify the length or size in advance. create it and add as many items as needed at the run time.
+</br>
+
+<b>[28] How do you sort the elements of a vector? </b> </br>
+we can use the sort algorithm from the standard library. ranges::sort(name_of_vector);
 
