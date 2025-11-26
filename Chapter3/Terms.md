@@ -11,6 +11,6 @@
 - increment: ++i or i++ or i+=1;
 - selection: using if-statement or switch case
 - declaration: function declaration is the way to provide program sufficient information to use the function, scpecifically return type, function name, parameter list.
-- input: 
-- definition: the detail implementation 
+- input: it could be something from keyboard, mouse, sensors, etc. It can also an output from one part in a program.
+- definition: the detail implementation of a function.
 
