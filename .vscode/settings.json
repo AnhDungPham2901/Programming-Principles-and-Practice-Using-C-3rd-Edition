@@ -63,6 +63,11 @@
         "complex": "cpp",
         "sstream": "cpp",
         "__verbose_abort": "cpp",
-        "__threading_support": "cpp"
+        "__threading_support": "cpp",
+        "__tree": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "span": "cpp"
     }
 }
