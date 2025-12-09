@@ -70,6 +70,63 @@ we use if(cin) {// this is okay } else {//fail}
 
 <b>[14] When is throwing an exception preferable to returning an “error value”? </b>
 
-when we 
+- when we dont want to ignore an error. Because exception cannot be ignored. If no caller catches exceptions, the program terminates. 
+- when the function dont know how to handle the exception locally
+- when there is no meaningful value to return such as return an int in a cin >> int_value program
+- when we want to catch the exception from direct or indirect call 
 
 <b>[15] When is returning an “error value” preferable to throwing an exception? </b>
+- when we can make sure caller handle the errors right away
+- when we can make sure we can return meaningful values. 
+
+<b> [16] Describe the process of how exceptions are thrown and caught.</b>
+
+When a function detects an error, throw an exception. A caller (direct or indirect) expresses interest in exception by using try key word. And catch the exeption and handle. 
+
+<b>[17] Why, with a vector called v, is v[v.size()] a range error? What would be the result of calling this?</b>
+
+because the max index of the vector is v.size() - 1 (index starts from 0). Calling v[v.size()] will throw out_of_range exception, the exception is implemented by vector subscript function. 
+
+<b>[18] What is an assertion?</b>
+
+An assertion is a statement that asserts an invariant (conditions that always hold)
+
+<b> [19] Define precondition and postcondition; give an example (that is not the area() function from this chapter), preferably a computation that requires a loop.</b>
+
+precondition is the requirements of function arguments. postcondition is the requirement of the return value. </br>
+eg: int factorial(int n) { </br>
+    // n must be >= 0 </br>
+    expect(lambda function to check n>=0) </br>
+    int fac = 1; </br>
+    for() {...} </br>
+    // fac must be positive </br>
+    expect(lambda function to check fac >=0) </br>
+    return fac; </br>
+}
+
+<b>[20] When would you not test a precondition?</b>
+- we know 'who' will use the function and they dont give bad arguments
+- the checking slows down our code
+- its to complicated to check
+
+<b>[21] When would you not test a postcondition?</b>
+
+when the return value is simple and obvious.
+
+<b>[22] What are the steps in debugging a program?</b>
+
+compile the program, link the program, run the program and make sure it produces expected outputs.
+
+<b>[23] Why does commenting help when debugging?</b>
+
+Because there are things that code can't express in code such as the purpose of the program, who wrote the program, version of the program, explanation of algorithms, references, missing parts that need to be handled.
+
+<b>[24] How does testing differ from debugging?</b>
+
+testing is the process of searching errors by comparing producing output with expected output pair, while debugging is the process of finding the causes of the error. 
+
+<b>[25] What is a random number? </b>
+
+is a number from a sequence of numbers. given a previous number, its hard to determine what number next.
+
+
