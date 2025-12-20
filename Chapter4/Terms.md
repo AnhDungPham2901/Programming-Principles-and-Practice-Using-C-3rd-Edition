@@ -1,0 +1,21 @@
+- argument error: arguments does not follow the precondition
+- exception: error thrown by a function when it detects an error
+- requirement: specification or expectation of final progrogram.
+- assertion: asserts invariant (conditions that always hold)
+- invariant: condition that always hold suchs as arguments must always be positive.
+- run-time error: errors happen by the time of running program. 
+- catch: handle the exception thrown.
+- link-time error: errors found by linker such as declared but not defined
+- syntax error: dont conform the language specification
+- compile-time error: errors found by compiler such as syntax errors and type errors
+- logic error: program runs but it does not produce output or produce wrong output
+- testing: the systematic way to search errors 
+- container: a collection of data such as vector, array, etc.
+- postcondition: expectation of return value
+- throw: use to return an exception
+- debugging: the process of finding root causes of an error
+- precondition: expectation of function arguments
+- type error: defined type and assigned type is different such as define return type int for a function but use double type for the function
+- error: unexpected outputs
+- range error: errors thrown by subscript function when out of index access
+- expect(): the function that can help us seperate pre/post condition vs actual code of the function
