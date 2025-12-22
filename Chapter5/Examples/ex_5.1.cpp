@@ -10,6 +10,9 @@ class Token {
 
 }; 
 
+Token get_token() {
+}
+
 int main() {
     Token t {'+'}; 
     return 0;
