@@ -1,0 +1,20 @@
+- analysis: understanding problem
+- grammar: structure of inputs
+- prototype: small, limited version at the start with the purpose of understanding more of our problem
+- class: keyword used for user-defined types.
+- implementation: write code, debug and test 
+- pseudo code: sketch idea of parts in our program
+- class member: it can be data member of member function.
+- interface: provide users useful operations for a user-defined type.
+- public: this is where we define interfaces
+- data member: that hold data in user-defined type
+- member function: operations can be performed in the user-defined type
+- syntax analyzer: or parser, that is an program that read tokens accoriding to a grammar.
+- design: how to structure our programs, how parts communicate, which tools to use to support structure of program
+- parser: or syntax analyzer, that is an program that reads tokens accoriding to a grammar. 
+- token: sequence of characters that we consider a unit 
+- divide by zero: in division, the denominator could be 0 -> should check to avoid this error 
+- private: inside a class where we put the detail implementations for the type. This is where we want to separate user's need of a type and the details implementation. We put it here and dont want users to mess with it. 
+- use case: an example of how to use our program. 
+- token stream: We create to handle get token to putback for tokens. Not messing up with cin, its only support characters level for putback.
+- look-ahead: this is the problem when we need to read next token then we know what to do with it. For example 1+2*3 --> we must know there is * so we know it should be 1+(2\*3) not (1+2) * 3.
